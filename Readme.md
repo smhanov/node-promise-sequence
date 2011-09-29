@@ -26,6 +26,8 @@ passed to these functions.
 Adds a loop to the sequence. Loops have two parts: A next function, and a
 body function.
 
+![Loop](http://zwibbler.com/shared/1621.png)
+
 When the loop executes, the nextFunction is called first. Its argument is
 the result of the previous operation in the sequence. The argument passed
 to the nextFunction on repeated calls never changes.
