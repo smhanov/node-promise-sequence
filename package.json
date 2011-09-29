@@ -1,0 +1,10 @@
+{
+    "name": "promise-sequence",
+    "version": 1,
+    "description": "Provides sequential promises for asynchronous programming.",
+    "author": "Steve Hanov",
+    "main": "PromiseSequence.js",
+    "dependencies": { 
+        "promise": ">0.0.1" 
+    }
+}
