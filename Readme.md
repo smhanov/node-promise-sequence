@@ -12,6 +12,8 @@ Adds a function to the sequence. The function should take a single
 argument, which is the result of the previous operation. If there was not
 previous operation, the argument is what was passed to the run() function.
 
+![Loop](http://zwibbler.com/shared/1622.png)
+
 The return value of the function will be passed to the next function in the
 sequence. If function returns a promise, the promise is first resolved, and
 the result of the promise is then passed to the next function in the
